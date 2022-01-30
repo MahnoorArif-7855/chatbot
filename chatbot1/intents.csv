@@ -1,0 +1,15 @@
+intents/tag,intents/patterns/0,intents/patterns/1,intents/patterns/2,intents/patterns/3,intents/patterns/4,intents/patterns/5,intents/patterns/6,intents/responses/0,intents/responses/1,intents/responses/2,intents/context/0
+greeting,Hi there,How are you,Is anyone there?,Hey,Hola,Hello,Good day,"Hello, thanks for asking",Good to see you again,"Hi there, how can I help?",
+goodbye,Bye,See you later,Goodbye,"Nice chatting to you, bye",Till next time,,,See you!,Have a nice day,Bye! Come back again soon.,
+thanks,Thanks,Thank you,That's helpful,"Awesome, thanks",Thanks for helping me,,,Happy to help!,Any time!,My pleasure,
+noanswer,,,,,,,,"Sorry, can't understand you",Please give me more info,Not sure I understand,
+options,How you could help me?,What you can do?,What help you provide?,How you can be helpful?,What support is offered,,,"I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies","Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies",,
+adverse_drug,How to check Adverse drug reaction?,Open adverse drugs module,Give me a list of drugs causing adverse behavior,List all drugs suitable for patient with adverse reaction,Which drugs dont have adverse reaction?,,,Navigating to Adverse drug reaction module,,,
+blood_pressure,Open blood pressure module,Task related to blood pressure,Blood pressure data entry,I want to log blood pressure results,Blood pressure data management,,,Navigating to Blood Pressure module,,,
+blood_pressure_search,I want to search for blood pressure result history,Blood pressure for patient,Load patient blood pressure result,Show blood pressure results for patient,Find blood pressure results by ID,,,Please provide Patient ID,Patient ID?,,search_blood_pressure_by_patient_id
+search_blood_pressure_by_patient_id,,,,,,,,Loading Blood pressure result for Patient,,,
+pharmacy_search,Find me a pharmacy,Find pharmacy,List of pharmacies nearby,Locate pharmacy,Search pharmacy,,,Please provide pharmacy name,,,search_pharmacy_by_name
+search_pharmacy_by_name,,,,,,,,Loading pharmacy details,,,
+hospital_search,Lookup for hospital,Searching for hospital to transfer patient,I want to search hospital data,Hospital lookup for patient,Looking up hospital details,,,Please provide hospital name or location,,,search_hospital_by_params
+search_hospital_by_params,,,,,,,,Please provide hospital type,,,search_hospital_by_type
+search_hospital_by_type,,,,,,,,Loading hospital details,,,
